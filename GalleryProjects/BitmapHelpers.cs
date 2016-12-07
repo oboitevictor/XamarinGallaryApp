@@ -15,7 +15,7 @@ namespace GalleryProjects
 {
   public  class BitmapHelpers
     {
-        public static int CalculateInSampleSize(BitmapFactory.Options options, int reqWidth, int reqHeight)
+        public  static int CalculateInSampleSize(BitmapFactory.Options options, int reqWidth, int reqHeight)
         {
             // Raw height and width of image 
             float height = options.OutHeight;
